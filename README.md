@@ -18,6 +18,8 @@ cat 1.md
 ```
 
 * [Part I](1.md)
+* [Part II](2.md)
+* [Part III](3.md)
 
 # License
 MIT
