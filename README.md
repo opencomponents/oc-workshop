@@ -13,8 +13,11 @@ Here is the material for an OpenComponents workshop. If you don't know what Open
 ```sh
 git clone https://github.com/matteofigus/oc-workshop
 cd oc-workshop
+npm install -g oc
 cat 1.md
 ```
+
+* [Part I](1.md)
 
 # License
 MIT
