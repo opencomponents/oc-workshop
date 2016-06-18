@@ -1,0 +1,25 @@
+{
+  "name": "bc-mfigus",
+  "description": "This is a component for showing my business card",
+  "version": "1.0.4",
+  "repository": "https://github.com/matteofigus/oc-workshop/tree/master/solution/bc-mfigus",
+  "author": "Matteo Figus <matteofigus@gmail.com>",
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "template.jade",
+        "type": "jade"
+      },
+      "static": ["src"]
+    },
+    "parameters": {
+      "skin": {
+        "type": "string",
+        "mandatory": false,
+        "example": "light",
+        "description": "The skin of the business card. Possible values are 'light' or 'dark'."
+      }
+    }
+  }
+}

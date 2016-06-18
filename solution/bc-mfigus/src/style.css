@@ -1,0 +1,9 @@
+#bc {
+  border: 1px solid #462f2f;
+  padding: 1%;
+}
+
+#bc.dark {
+  background-color: #000;
+  color: #fff;
+}

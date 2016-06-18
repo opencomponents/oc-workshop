@@ -1,0 +1,21 @@
+#bc(class=cssClass, style="display: none;")
+  img(src=staticPath+"src/photo.jpg")
+  p Matteo Figus
+  a(href="mailto:matteofigus@gmail.com") matteofigus@gmail.com
+  div
+    | Most starred repo in github: 
+    oc-component(href=baseUrl+'github-repo/1.X.X/?username=matteofigus')
+
+script.
+  window.oc = window.oc || {};
+  oc.cmd = oc.cmd || [];
+
+  oc.cmd.push(function(oc){
+
+    oc.require('#{staticPath}src/style.css', function(){
+
+      document.querySelector('#bc').style.display = 'block';
+
+    });
+
+  });

@@ -17,9 +17,11 @@ npm install -g oc
 cat 1.md
 ```
 
+* [Getting started](getting-started.md)
 * [Part I](1.md)
 * [Part II](2.md)
 * [Part III](3.md)
+
 
 # License
 MIT

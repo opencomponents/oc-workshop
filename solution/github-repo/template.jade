@@ -1,0 +1,4 @@
+if repos.length === 0
+  div No repos found for username!
+else
+  a(href=repos[0].html_url) #{repos[0].name} (#{repos[0].stargazers_count} &#x2605;)  
