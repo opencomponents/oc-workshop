@@ -5,7 +5,7 @@ Here is the material for an OpenComponents workshop. If you don't know what Open
 
 # Requirements
 
-* node.js >= 0.10.35
+* node.js >= 4
 * text editor
 
 # Instructions
